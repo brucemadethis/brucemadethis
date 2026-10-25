@@ -1,0 +1,40 @@
+.nav-links a {
+  display: inline-block;
+  transform-origin: center;
+  transition: transform 0.18s ease;
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
+  transform: scale(0.94);
+}
+
+.hero-visual .image-frame img {
+  animation: hero-photo-pan 24s ease-in-out infinite alternate;
+  object-position: 44% 50%;
+}
+
+@keyframes hero-photo-pan {
+  from {
+    object-position: 44% 50%;
+  }
+
+  to {
+    object-position: 58% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-links a {
+    transition: none;
+  }
+
+  .hero-visual .image-frame img {
+    animation: none;
+  }
+
+  .nav-links a:hover,
+  .nav-links a:focus-visible {
+    transform: none;
+  }
+}

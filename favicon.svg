@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="28" fill="none" stroke="#20201c" stroke-width="3"/>
+  <text x="32" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#20201c">B</text>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      circle, text { stroke: #f5f2eb; fill: #f5f2eb; }
+      circle { fill: none; }
+    }
+  </style>
+</svg>
